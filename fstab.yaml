@@ -1,5 +1,5 @@
 mountpoints:
   /:
-    url: "https://author-p121050-e1183639.adobeaemcloud.com/ui#/aem//bin/franklin.delivery/adobe-rnd/aem-block-collection-xwalk/main"
+    url: "https://author-p121050-e1183639.adobeaemcloud.com/ui#/aem//bin/franklin.delivery/mspara26/xwalk-ensono/main"
     type: "markup"
     suffix: ".html"
