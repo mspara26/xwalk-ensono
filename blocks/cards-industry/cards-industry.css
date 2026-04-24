@@ -1,0 +1,85 @@
+/* cards-industry — purple background, white text, teal CTA buttons */
+
+.cards-industry-wrapper {
+  max-width: unset;
+  padding: 0;
+}
+
+.cards-industry {
+  background: linear-gradient(135deg, #4a1dc4 0%, #6941eb 40%, #5025b8 100%);
+  padding: var(--spacing-l) var(--spacing-m);
+  border-radius: 16px;
+}
+
+.cards-industry > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: var(--spacing-m);
+}
+
+.cards-industry > ul > li {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid rgb(255 255 255 / 30%);
+  padding-top: var(--spacing-m);
+}
+
+/* hide empty image cell */
+.cards-industry .cards-card-body:first-child:empty,
+.cards-industry .cards-industry-card-image {
+  display: none;
+}
+
+/* heading */
+.cards-industry .cards-card-body h4 {
+  color: #fff;
+  font-weight: 700;
+  font-size: var(--heading-font-size-m);
+  margin-top: 0;
+  margin-bottom: var(--spacing-s);
+}
+
+/* description */
+.cards-industry .cards-card-body p {
+  color: rgb(255 255 255 / 85%);
+  font-size: var(--body-font-size-s);
+  line-height: 1.6;
+  margin-top: 0;
+  margin-bottom: var(--spacing-s);
+}
+
+/* teal CTA button */
+.cards-industry .cards-card-body a.button:any-link {
+  background-color: var(--brand-teal);
+  color: #fff;
+  border-radius: 4px;
+  padding: 8px 20px;
+  font-size: var(--body-font-size-s);
+  font-weight: 600;
+  border: none;
+}
+
+.cards-industry .cards-card-body a.button:hover {
+  background-color: var(--brand-teal-dark);
+}
+
+@media (width >= 600px) {
+  .cards-industry > ul {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (width >= 900px) {
+  .cards-industry {
+    padding: var(--spacing-xl) var(--spacing-l);
+    border-radius: 24px;
+  }
+
+  .cards-industry > ul {
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-l);
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "columns-cta",
+  "baseBlock": "columns",
+  "version": "1.0.0",
+  "created": "2026-04-23T20:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ensono.com/",
+    "originPage": "Ensono homepage",
+    "blockPosition": "cta-section"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-grey",
+    "density": "spacious",
+    "purpose": "Newsletter/resource CTA section",
+    "imagePattern": "promotional"
+  },
+  "contentPattern": {
+    "structure": "image left + text and CTA right",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "newsletter signup sections",
+      "resource download CTAs",
+      "promotional banner sections"
+    ],
+    "notSuitableFor": [
+      "multi-column layouts",
+      "data comparison tables",
+      "image galleries"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T20:10:00.000Z"
+  }
+}

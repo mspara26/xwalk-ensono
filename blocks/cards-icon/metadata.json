@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-icon",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-23T20:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ensono.com/",
+    "originPage": "Ensono homepage",
+    "blockPosition": "resource-cards-section"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "compact",
+    "purpose": "Resource/content type cards with SVG icons",
+    "imagePattern": "icon-based"
+  },
+  "contentPattern": {
+    "structure": "icon + category label cards",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "resource library pages",
+      "content type navigation",
+      "category listing pages"
+    ],
+    "notSuitableFor": [
+      "image-heavy galleries",
+      "detailed product cards",
+      "testimonial cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T20:10:00.000Z"
+  }
+}

@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-casestudy",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-23T20:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ensono.com/",
+    "originPage": "Ensono homepage",
+    "blockPosition": "case-studies-section"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "Client success story cards",
+    "imagePattern": "image-based with labels"
+  },
+  "contentPattern": {
+    "structure": "image + label + title cards",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "case study listing pages",
+      "client success stories",
+      "portfolio showcase pages"
+    ],
+    "notSuitableFor": [
+      "icon-only navigation",
+      "pricing comparison cards",
+      "team member profiles"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T20:10:00.000Z"
+  }
+}

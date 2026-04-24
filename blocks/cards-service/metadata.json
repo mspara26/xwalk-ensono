@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-service",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-23T20:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ensono.com/",
+    "originPage": "Ensono homepage",
+    "blockPosition": "services-section"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light-grey",
+    "density": "compact",
+    "purpose": "Service offering cards",
+    "imagePattern": "icon-based"
+  },
+  "contentPattern": {
+    "structure": "gradient icon + service category cards",
+    "buttonCount": 1,
+    "imageCount": 0
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "service overview pages",
+      "capability listing pages",
+      "solution category pages"
+    ],
+    "notSuitableFor": [
+      "blog post cards",
+      "team member profiles",
+      "image gallery cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T20:10:00.000Z"
+  }
+}

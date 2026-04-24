@@ -1,0 +1,39 @@
+{
+  "variantName": "cards-industry",
+  "baseBlock": "cards",
+  "version": "1.0.0",
+  "created": "2026-04-23T20:10:00.000Z",
+  "sourceContext": {
+    "originUrl": "https://www.ensono.com/",
+    "originPage": "Ensono homepage",
+    "blockPosition": "industries-section"
+  },
+  "visualCharacteristics": {
+    "colorScheme": "light",
+    "density": "spacious",
+    "purpose": "Industry vertical showcase",
+    "imagePattern": "image-based"
+  },
+  "contentPattern": {
+    "structure": "image + industry name cards",
+    "buttonCount": 1,
+    "imageCount": 1
+  },
+  "reuseGuidance": {
+    "suitableFor": [
+      "industry overview pages",
+      "vertical market pages",
+      "sector-specific landing pages"
+    ],
+    "notSuitableFor": [
+      "text-only listings",
+      "icon-based navigation",
+      "pricing cards"
+    ]
+  },
+  "usage": {
+    "pagesUsing": ["/"],
+    "reuseCount": 1,
+    "lastUsed": "2026-04-23T20:10:00.000Z"
+  }
+}

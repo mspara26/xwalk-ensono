@@ -1,0 +1,136 @@
+{
+  "metadata": {
+    "projectType": "xwalk"
+  },
+  "templates": [
+    {
+      "name": "homepage",
+      "urls": [
+        "https://www.ensono.com/"
+      ],
+      "description": "Ensono corporate homepage with hero banner, service highlights, client logos, and CTAs",
+      "blocks": [
+        {
+          "name": "hero-split",
+          "instances": [
+            ".wp-block-ws-split"
+          ]
+        },
+        {
+          "name": "cards-icon",
+          "instances": [
+            "section.padding-top-0.padding-bottom-50:not(.has-background) .wp-block-ws-layout-row"
+          ]
+        },
+        {
+          "name": "cards-service",
+          "instances": [
+            "section.has-background .wp-block-ws-layout-row"
+          ]
+        },
+        {
+          "name": "cards-industry",
+          "instances": [
+            ".wp-block-ws-card.has-background"
+          ]
+        },
+        {
+          "name": "cards-casestudy",
+          "instances": [
+            ".wp-block-ws-select-content"
+          ]
+        },
+        {
+          "name": "columns-cta",
+          "instances": [
+            ".stk-block-columns"
+          ]
+        }
+      ],
+      "sections": [
+        {
+          "id": "section-1",
+          "name": "Hero Banner",
+          "selector": "section.has-white-color",
+          "style": "dark-purple",
+          "blocks": [
+            "hero-split"
+          ],
+          "defaultContent": []
+        },
+        {
+          "id": "section-2",
+          "name": "New Now Next",
+          "selector": "main > section:nth-of-type(2)",
+          "style": null,
+          "blocks": [
+            "cards-icon"
+          ],
+          "defaultContent": [
+            "h3.wp-block-heading"
+          ]
+        },
+        {
+          "id": "section-3",
+          "name": "Who We Are",
+          "selector": "main > section:nth-of-type(3)",
+          "style": null,
+          "blocks": [],
+          "defaultContent": [
+            "h3.wp-block-heading",
+            "p",
+            ".wp-block-button"
+          ]
+        },
+        {
+          "id": "section-4",
+          "name": "What We Do",
+          "selector": "section.has-background:nth-of-type(1)",
+          "style": "light-grey",
+          "blocks": [
+            "cards-service"
+          ],
+          "defaultContent": [
+            "h3.wp-block-heading",
+            "h4.wp-block-heading"
+          ]
+        },
+        {
+          "id": "section-5",
+          "name": "Who We Serve",
+          "selector": "main section:nth-of-type(6)",
+          "style": null,
+          "blocks": [
+            "cards-industry"
+          ],
+          "defaultContent": [
+            "h3.wp-block-heading",
+            "h4.wp-block-heading"
+          ]
+        },
+        {
+          "id": "section-6",
+          "name": "Allyship In Action",
+          "selector": "main section:nth-of-type(8)",
+          "style": null,
+          "blocks": [
+            "cards-casestudy"
+          ],
+          "defaultContent": [
+            "h3.wp-block-heading"
+          ]
+        },
+        {
+          "id": "section-7",
+          "name": "Stay Ahead",
+          "selector": "section.has-background:last-of-type",
+          "style": "light-grey",
+          "blocks": [
+            "columns-cta"
+          ],
+          "defaultContent": []
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,84 @@
+/* columns-cta — two-column layout: image left, heading + description + CTA right */
+
+.columns-cta > div {
+  display: flex;
+  flex-direction: column;
+}
+
+/* general images */
+.columns-cta img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* image cell */
+.columns-cta > div > .columns-cta-img-col {
+  order: 0;
+}
+
+.columns-cta > div > .columns-cta-img-col img {
+  display: block;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+}
+
+/* text cell */
+.columns-cta > div > div {
+  order: 1;
+  padding: var(--spacing-l) 0;
+}
+
+/* heading */
+.columns-cta h2,
+.columns-cta h3 {
+  font-size: var(--heading-font-size-xl);
+  font-weight: 600;
+  color: var(--text-color);
+  margin-top: 0;
+  margin-bottom: var(--spacing-s);
+}
+
+/* description */
+.columns-cta p {
+  font-size: var(--body-font-size-m);
+  color: var(--text-color-secondary);
+  line-height: 1.6;
+  margin-bottom: var(--spacing-m);
+}
+
+/* CTA button */
+.columns-cta a.button:any-link {
+  background-color: var(--button-bg);
+  color: var(--button-color);
+  border-radius: var(--button-border-radius);
+  padding: var(--button-padding);
+  font-weight: var(--button-font-weight);
+  font-size: var(--button-font-size);
+  transition: background-color var(--transition-base);
+}
+
+.columns-cta a.button:hover {
+  background-color: var(--button-bg-hover);
+  text-decoration: none;
+}
+
+/* ---- desktop: side-by-side ---- */
+@media (width >= 900px) {
+  .columns-cta > div {
+    flex-direction: row;
+    align-items: center;
+    gap: var(--spacing-xl);
+  }
+
+  .columns-cta > div > div {
+    flex: 1;
+    order: unset;
+    padding: var(--spacing-l) 0;
+  }
+
+  .columns-cta > div > .columns-cta-img-col {
+    flex: 1;
+    order: unset;
+  }
+}

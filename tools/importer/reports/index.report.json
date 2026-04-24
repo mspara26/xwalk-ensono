@@ -1,0 +1,17 @@
+{
+  "status": "success",
+  "url": "https://www.ensono.com/",
+  "path": "index",
+  "timestamp": "2026-04-23T20:33:35.370Z",
+  "title": "Your Ally for Flexibility, Expertise, and Better Business Outcomes | Ensono",
+  "template": "homepage",
+  "blocks": [
+    "hero-split",
+    "cards-icon",
+    "cards-service",
+    "cards-service",
+    "cards-industry",
+    "cards-casestudy",
+    "columns-cta"
+  ]
+}
