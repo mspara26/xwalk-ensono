@@ -1,0 +1,7 @@
+{
+  "mappings": [
+    "/content/xwalk-ensono/:/",
+    "/content/xwalk-ensono/metadata:/metadata.json",
+    "/content/xwalk-ensono/configuration:/.helix/config.json"
+  ]
+}
