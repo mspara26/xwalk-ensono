@@ -1,9 +1,13 @@
 {
+  "project": "Ensono",
+  "host": "main--xwalk-ensono--mspara26.aem.live",
+  "previewHost": "main--xwalk-ensono--mspara26.aem.page",
+  "editHost": "https://author-p121050-e1183639.adobeaemcloud.com",
   "plugins": [
     {
       "id": "aemedit",
       "title": "Edit",
-      "environments": [ "dev", "preview", "live" ],
+      "environments": ["dev", "preview", "live"],
       "event": "aemedit"
     }
   ]
